@@ -27,20 +27,11 @@ The RTL was pushed through the complete OpenLane RTL-to-GDSII flow, resolving co
 * **Standard Cell Count:** 15,018 active logic cells
 * **Target Clock Frequency:** 50 MHz (20ns period)
 * **Routing:** TritonRoute (Step 17) fully completed with 0 DRC violations.
-* **Current Status:** FPGA Prototyping (Intel Cyclone V / DE1-SoC) 
+* **Current Status:** FPGA Prototyping (Intel Cyclone V / DE1-SoC)
 
-## 📂 Repository Structure
-
-```text
-├── verilog/
-│   └── rtl/                  # All Core Verilog files (riscv_pipeline_top.v, etc.)
-├── openlane/
-│   └── config.json           # OpenLane physical design constraints & die area
-├── gds/
-│   └── vajra_caravel_soc.gds # Final routed microscopic silicon layout
-├── docs/                     # KLayout screenshots, STA timing reports, and waveforms
-└── README.md
-
+<img width="1920" height="1080" alt="Screenshot (79)" src="https://github.com/user-attachments/assets/67bbf626-9b56-45b2-9b79-ff6f655e2593" />
+<img width="1920" height="1080" alt="Screenshot (78)" src="https://github.com/user-attachments/assets/9d4a5e2b-4212-4459-9d71-6b3d9ce35bfa" />
+<img width="1920" height="1080" alt="Screenshot (81)" src="https://github.com/user-attachments/assets/21dd2545-4915-4ae2-bd97-e61e16e4a5e0" />
 
 ##🚀 Future Roadmap: Sim2Real AI Robotics
 Project Vajra is currently being evolved to serve as the bare-metal processing brain for an open-source, AI-driven robotic system. Future commits will include:
@@ -51,3 +42,17 @@ Deterministic Motor Control: Hardware-level PWM generation for zero-jitter multi
 
 👨‍💻 Author
 Nirnay Rana 2nd-Year Electronics & Telecommunications Engineering Student | SGSITS www.linkedin.com/in/nirnay-rana-35a663204 | nirnay.rana1646@gmail.com
+
+
+## 📂 Repository Structure
+
+```text
+├── /
+│   └── src/                  # All Core Verilog files (riscv_pipeline_top.v, etc.)
+│__    config.json           # OpenLane physical design constraints & die area
+├── gds/
+│   └── vajra_caravel_soc.gds # Final routed microscopic silicon layout
+├── docs/                     # KLayout screenshots, STA timing reports, and waveforms
+└── README.md
+
+
