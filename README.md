@@ -40,7 +40,9 @@ The RTL was pushed through the complete OpenLane RTL-to-GDSII flow, resolving co
 │   └── vajra_caravel_soc.gds # Final routed microscopic silicon layout
 ├── docs/                     # KLayout screenshots, STA timing reports, and waveforms
 └── README.md
-🚀 Future Roadmap: Sim2Real AI Robotics
+
+
+##🚀 Future Roadmap: Sim2Real AI Robotics
 Project Vajra is currently being evolved to serve as the bare-metal processing brain for an open-source, AI-driven robotic system. Future commits will include:
 
 Hardware AI Accelerator: A custom INT8 Systolic Array MAC unit attached to the AXI bus for edge neural network inference.
