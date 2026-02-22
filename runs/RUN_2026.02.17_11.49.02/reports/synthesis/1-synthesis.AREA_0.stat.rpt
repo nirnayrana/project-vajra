@@ -1,0 +1,41 @@
+
+75. Printing statistics.
+
+=== riscv_pipeline_top ===
+
+   Number of wires:                145
+   Number of wire bits:            283
+   Number of public wires:          52
+   Number of public wire bits:     190
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                240
+     sky130_fd_sc_hd__a211o_2        1
+     sky130_fd_sc_hd__a21o_2         5
+     sky130_fd_sc_hd__a221o_2        1
+     sky130_fd_sc_hd__a31o_2         4
+     sky130_fd_sc_hd__a32o_2         2
+     sky130_fd_sc_hd__a41o_2         3
+     sky130_fd_sc_hd__and2_2         8
+     sky130_fd_sc_hd__and2b_2        8
+     sky130_fd_sc_hd__and3_2         6
+     sky130_fd_sc_hd__and4_2         9
+     sky130_fd_sc_hd__buf_1         13
+     sky130_fd_sc_hd__conb_1       112
+     sky130_fd_sc_hd__dfrtp_2       34
+     sky130_fd_sc_hd__dfstp_2        1
+     sky130_fd_sc_hd__inv_2          5
+     sky130_fd_sc_hd__nand2_2        3
+     sky130_fd_sc_hd__nand3_2        2
+     sky130_fd_sc_hd__nor2_2         4
+     sky130_fd_sc_hd__o21ba_2        3
+     sky130_fd_sc_hd__o31a_2         1
+     sky130_fd_sc_hd__or2_2          1
+     sky130_fd_sc_hd__or3_2          1
+     sky130_fd_sc_hd__or3b_2         1
+     sky130_fd_sc_hd__xnor2_2        5
+     sky130_fd_sc_hd__xor2_2         7
+
+   Chip area for module '\riscv_pipeline_top': 2150.812800
+

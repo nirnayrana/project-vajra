@@ -1,0 +1,6 @@
+Warning: /openlane/designs/riscv/runs/RUN_2026.02.20_09.51.27/results/routing/vajra_caravel_soc.nl.v line 1379, module sky130_ef_sc_hd__decap_12 not found. Creating black box for FILLER_0_0_197.
+Warning: /openlane/designs/riscv/runs/RUN_2026.02.20_09.51.27/results/routing/vajra_caravel_soc.nl.v line 1386, module sky130_fd_sc_hd__fill_2 not found. Creating black box for FILLER_0_0_138.
+Warning: /openlane/designs/riscv/runs/RUN_2026.02.20_09.51.27/results/routing/vajra_caravel_soc.nl.v line 1396, module sky130_fd_sc_hd__fill_1 not found. Creating black box for FILLER_0_0_49.
+Warning: /openlane/designs/riscv/runs/RUN_2026.02.20_09.51.27/results/routing/vajra_caravel_soc.nl.v line 2236, module sky130_fd_sc_hd__tapvpwrvgnd_1 not found. Creating black box for TAP_644.
+Warning: There are 54 unconstrained endpoints.
+[WARNING] Did not save OpenROAD database!

@@ -1,0 +1,38 @@
+
+76. Printing statistics.
+
+=== vajra_caravel_soc ===
+
+   Number of wires:                378
+   Number of wire bits:            489
+   Number of public wires:         159
+   Number of public wire bits:     270
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                449
+     sky130_fd_sc_hd__a21o_2         3
+     sky130_fd_sc_hd__a21oi_2        7
+     sky130_fd_sc_hd__a31o_2         9
+     sky130_fd_sc_hd__a41o_2         1
+     sky130_fd_sc_hd__and2_2        19
+     sky130_fd_sc_hd__and2b_2        9
+     sky130_fd_sc_hd__and3_2        15
+     sky130_fd_sc_hd__and4_2        16
+     sky130_fd_sc_hd__buf_1         24
+     sky130_fd_sc_hd__buf_2         52
+     sky130_fd_sc_hd__conb_1       122
+     sky130_fd_sc_hd__dfrtp_2       56
+     sky130_fd_sc_hd__inv_2         59
+     sky130_fd_sc_hd__nand2_2        8
+     sky130_fd_sc_hd__nand4_2        1
+     sky130_fd_sc_hd__nor2_2        16
+     sky130_fd_sc_hd__o21a_2         4
+     sky130_fd_sc_hd__o21ba_2        5
+     sky130_fd_sc_hd__o2bb2a_2       2
+     sky130_fd_sc_hd__or2_2          1
+     sky130_fd_sc_hd__xnor2_2        6
+     sky130_fd_sc_hd__xor2_2        14
+
+   Chip area for module '\vajra_caravel_soc': 3774.870400
+

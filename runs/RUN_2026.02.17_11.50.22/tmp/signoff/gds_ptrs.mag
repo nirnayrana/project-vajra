@@ -1,0 +1,6 @@
+<< properties >>
+string FIXED_BBOX 0 0 100000 100000
+string GDS_END 3268426
+string GDS_FILE /openlane/designs/riscv/runs/RUN_2026.02.17_11.50.22/results/signoff/riscv_pipeline_top.magic.gds
+string GDS_START 246030
+<< end >>

@@ -1,0 +1,49 @@
+
+32. Executing CHECK pass (checking for obvious problems).
+Checking module riscv_regfile...
+Checking module riscv_pipeline_top...
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [31] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [30] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [29] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [28] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [27] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [26] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [25] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [24] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [23] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [22] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [21] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [20] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [19] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [18] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [17] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [16] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [15] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [14] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [13] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [12] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [11] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [10] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [9] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [8] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [7] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [6] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [5] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [4] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [3] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [2] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [1] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [0] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WSTRB [3] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WSTRB [2] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WSTRB [1] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WSTRB [0] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WVALID is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_BREADY is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARVALID is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_RREADY is used but has no driver.
+Checking module riscv_imem...
+Checking module wallace_multiplier...
+Checking module riscv_alu4b...
+Checking module vajra_caravel_soc...
+Found and reported 40 problems.

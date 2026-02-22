@@ -1,0 +1,19 @@
+Design Name: vajra_caravel_soc
+Run Directory: /openlane/designs/riscv/runs/RUN_2026.02.20_14.35.42
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/riscv/runs/RUN_2026.02.20_14.35.42/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/riscv/runs/RUN_2026.02.20_14.35.42/logs/signoff/33-vajra_caravel_soc.lef.lvs.log
+Number of nets: 15278                      |Number of nets: 15278                      
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /openlane/designs/riscv/runs/RUN_2026.02.20_14.35.42/logs/signoff/35-arc.log
+Pin violations: 68
+Net violations: 48

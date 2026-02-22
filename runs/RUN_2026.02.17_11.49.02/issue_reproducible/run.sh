@@ -1,0 +1,41 @@
+#!/bin/sh
+dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
+cd $dir;
+export CURRENT_DEF='./tmp/floorplan/3-initial_fp.def';
+export CURRENT_NETLIST='./results/synthesis/riscv_pipeline_top.v';
+export CURRENT_ODB='./tmp/floorplan/3-initial_fp.odb';
+export CURRENT_POWERED_NETLIST='0';
+export CURRENT_SDC='./tmp/floorplan/3-initial_fp.sdc';
+export DESIGN_NAME='riscv_pipeline_top';
+export FP_IO_HEXTEND='0';
+export FP_IO_HLAYER='met3';
+export FP_IO_HLENGTH='4';
+export FP_IO_HTHICKNESS_MULT='2';
+export FP_IO_MIN_DISTANCE='3';
+export FP_IO_MODE='1';
+export FP_IO_VEXTEND='0';
+export FP_IO_VLAYER='met2';
+export FP_IO_VLENGTH='4';
+export FP_IO_VTHICKNESS_MULT='2';
+export FP_PDN_ENABLE_GLOBAL_CONNECTIONS='1';
+export FP_PDN_ENABLE_MACROS_GRID='1';
+export LIB_TYPICAL='pdk/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib';
+export MAX_FANOUT_CONSTRAINT='10';
+export MAX_TRANSITION_CONSTRAINT='0.75';
+export MERGED_LEF='./tmp/merged.nom.lef';
+export OUTPUT_CAP_LOAD='33.442';
+export PACKAGED_SCRIPT_0='openlane/scripts/openroad/ioplacer.tcl';
+export PACKAGED_SCRIPT_1='openlane/scripts/openroad/common/io.tcl';
+export PACKAGED_SCRIPT_2='./tmp/floorplan/3-initial_fp.sdc';
+export PACKAGED_SCRIPT_3='openlane/scripts/openroad/common/set_global_connections.tcl';
+export PROCESS_CORNER='nom';
+export SAVE_DEF='./tmp/floorplan/4-io.def';
+export SAVE_NETLIST='./out.v';
+export SAVE_ODB='./tmp/floorplan/4-io.odb';
+export SCRIPTS_DIR='openlane/scripts';
+export STA_PRE_CTS='1';
+export STD_CELL_GROUND_PINS='VGND VNB';
+export STD_CELL_POWER_PINS='VPWR VPB';
+export placement_tmpfiles='./tmp/placement';
+TOOL_BIN=${TOOL_BIN:-openroad}
+$TOOL_BIN -exit $PACKAGED_SCRIPT_0

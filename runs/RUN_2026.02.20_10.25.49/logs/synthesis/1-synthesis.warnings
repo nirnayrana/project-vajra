@@ -1,0 +1,1 @@
+/openlane/designs/riscv/src/riscv_axi_ram.v:0: Warning: System task `$write' outside initial block is unsupported.

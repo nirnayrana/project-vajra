@@ -1,0 +1,7 @@
+Warning: /openlane/designs/riscv/runs/RUN_2026.02.17_11.50.22/results/routing/riscv_pipeline_top.nl.v line 1243, module sky130_fd_sc_hd__tapvpwrvgnd_1 not found. Creating black box for TAP_350.
+Warning: /openlane/designs/riscv/runs/RUN_2026.02.17_11.50.22/results/routing/riscv_pipeline_top.nl.v line 4583, module sky130_ef_sc_hd__decap_12 not found. Creating black box for FILLER_0_0_6.
+Warning: /openlane/designs/riscv/runs/RUN_2026.02.17_11.50.22/results/routing/riscv_pipeline_top.nl.v line 4585, module sky130_fd_sc_hd__fill_2 not found. Creating black box for FILLER_0_0_26.
+Warning: /openlane/designs/riscv/runs/RUN_2026.02.17_11.50.22/results/routing/riscv_pipeline_top.nl.v line 4587, module sky130_fd_sc_hd__fill_1 not found. Creating black box for FILLER_0_0_37.
+Warning: There are 9 unclocked register/latch pins.
+Warning: There are 124 unconstrained endpoints.
+[WARNING] Did not save OpenROAD database!

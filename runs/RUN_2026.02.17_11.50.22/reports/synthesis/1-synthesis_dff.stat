@@ -1,0 +1,24 @@
+
+67. Printing statistics.
+
+=== riscv_pipeline_top ===
+
+   Number of wires:                 95
+   Number of wire bits:            313
+   Number of public wires:          23
+   Number of public wire bits:     191
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                131
+     $_ANDNOT_                      22
+     $_AND_                          5
+     $_MUX_                          4
+     $_NAND_                        12
+     $_NOT_                          1
+     $_OR_                          27
+     $_XNOR_                        12
+     $_XOR_                         13
+     sky130_fd_sc_hd__dfrtp_2       34
+     sky130_fd_sc_hd__dfstp_2        1
+

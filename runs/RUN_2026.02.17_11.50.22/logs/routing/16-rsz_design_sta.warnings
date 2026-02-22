@@ -1,0 +1,5 @@
+[WARNING GRT-0026] Missing route to pin riscv_pipeline_top_92/LO.
+[WARNING GRT-0026] Missing route to pin fanout11/X.
+Warning: There are 9 unclocked register/latch pins.
+Warning: There are 124 unconstrained endpoints.
+[WARNING] Did not save OpenROAD database!

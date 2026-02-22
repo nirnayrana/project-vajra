@@ -1,0 +1,6 @@
+<< properties >>
+string FIXED_BBOX 0 0 180000 180000
+string GDS_END 9139868
+string GDS_FILE /openlane/designs/riscv/runs/RUN_2026.02.20_10.36.02/results/signoff/vajra_caravel_soc.magic.gds
+string GDS_START 205736
+<< end >>

@@ -1,0 +1,11 @@
+# Ignore OpenLane run data
+designs/riscv/runs/
+
+# Ignore large GDSII/OASIS files (unless they are final releases)
+*.gds
+*.oas
+*.vcd
+
+# Ignore tool logs and temporary files
+*.log
+*.tmp

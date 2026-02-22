@@ -1,0 +1,653 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= Typical Corner ===================================
+
+Startpoint: rst_n (input port clocked by clk)
+Endpoint: _210_ (recovery check against rising-edge clock clk)
+Path Group: asynchronous
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.15    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                         10.00   10.00 ^ input external delay
+                  0.70    0.51   10.51 ^ rst_n (in)
+    35    0.16                           rst_n (net)
+                  0.70    0.00   10.51 ^ _210_/RESET_B (sky130_fd_sc_hd__dfrtp_2)
+                                 10.51   data arrival time
+
+                  0.15   50.00   50.00   clock clk (rise edge)
+                          0.00   50.00   clock network delay (ideal)
+                         -0.25   49.75   clock uncertainty
+                          0.00   49.75   clock reconvergence pessimism
+                                 49.75 ^ _210_/CLK (sky130_fd_sc_hd__dfrtp_2)
+                          0.05   49.80   library recovery time
+                                 49.80   data required time
+-----------------------------------------------------------------------------
+                                 49.80   data required time
+                                -10.51   data arrival time
+-----------------------------------------------------------------------------
+                                 39.29   slack (MET)
+
+
+Startpoint: _186_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _207_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.15    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.15    0.00    0.00 ^ _186_/CLK (sky130_fd_sc_hd__dfrtp_2)
+                  0.10    0.44    0.44 ^ _186_/Q (sky130_fd_sc_hd__dfrtp_2)
+     5    0.02                           counter[0] (net)
+                  0.10    0.00    0.44 ^ _110_/B (sky130_fd_sc_hd__and4_2)
+                  0.05    0.22    0.66 ^ _110_/X (sky130_fd_sc_hd__and4_2)
+     1    0.00                           _088_ (net)
+                  0.05    0.00    0.66 ^ _111_/A (sky130_fd_sc_hd__buf_1)
+                  0.42    0.36    1.03 ^ _111_/X (sky130_fd_sc_hd__buf_1)
+    10    0.04                           _089_ (net)
+                  0.42    0.00    1.03 ^ _145_/A (sky130_fd_sc_hd__and4_2)
+                  0.07    0.32    1.35 ^ _145_/X (sky130_fd_sc_hd__and4_2)
+     2    0.01                           _053_ (net)
+                  0.07    0.00    1.35 ^ _146_/A (sky130_fd_sc_hd__buf_1)
+                  0.45    0.39    1.74 ^ _146_/X (sky130_fd_sc_hd__buf_1)
+    10    0.04                           _054_ (net)
+                  0.45    0.00    1.74 ^ _161_/A (sky130_fd_sc_hd__and3_2)
+                  0.09    0.32    2.05 ^ _161_/X (sky130_fd_sc_hd__and3_2)
+     2    0.01                           _063_ (net)
+                  0.09    0.00    2.05 ^ _163_/A_N (sky130_fd_sc_hd__and2b_2)
+                  0.04    0.23    2.28 v _163_/X (sky130_fd_sc_hd__and2b_2)
+     1    0.00                           _065_ (net)
+                  0.04    0.00    2.28 v _164_/A (sky130_fd_sc_hd__buf_1)
+                  0.02    0.09    2.37 v _164_/X (sky130_fd_sc_hd__buf_1)
+     1    0.00                           _019_ (net)
+                  0.02    0.00    2.37 v _207_/D (sky130_fd_sc_hd__dfrtp_2)
+                                  2.37   data arrival time
+
+                  0.15   50.00   50.00   clock clk (rise edge)
+                          0.00   50.00   clock network delay (ideal)
+                         -0.25   49.75   clock uncertainty
+                          0.00   49.75   clock reconvergence pessimism
+                                 49.75 ^ _207_/CLK (sky130_fd_sc_hd__dfrtp_2)
+                         -0.08   49.67   library setup time
+                                 49.67   data required time
+-----------------------------------------------------------------------------
+                                 49.67   data required time
+                                 -2.37   data arrival time
+-----------------------------------------------------------------------------
+                                 47.30   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= Typical Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= Typical Corner ===================================
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+rst_n                                    10     35    -25 (VIOLATED)
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 395 unannotated drivers.
+ M_AXI_ARREADY
+ M_AXI_AWREADY
+ M_AXI_BRESP[0]
+ M_AXI_BRESP[1]
+ M_AXI_BVALID
+ M_AXI_RDATA[0]
+ M_AXI_RDATA[10]
+ M_AXI_RDATA[11]
+ M_AXI_RDATA[12]
+ M_AXI_RDATA[13]
+ M_AXI_RDATA[14]
+ M_AXI_RDATA[15]
+ M_AXI_RDATA[16]
+ M_AXI_RDATA[17]
+ M_AXI_RDATA[18]
+ M_AXI_RDATA[19]
+ M_AXI_RDATA[1]
+ M_AXI_RDATA[20]
+ M_AXI_RDATA[21]
+ M_AXI_RDATA[22]
+ M_AXI_RDATA[23]
+ M_AXI_RDATA[24]
+ M_AXI_RDATA[25]
+ M_AXI_RDATA[26]
+ M_AXI_RDATA[27]
+ M_AXI_RDATA[28]
+ M_AXI_RDATA[29]
+ M_AXI_RDATA[2]
+ M_AXI_RDATA[30]
+ M_AXI_RDATA[31]
+ M_AXI_RDATA[3]
+ M_AXI_RDATA[4]
+ M_AXI_RDATA[5]
+ M_AXI_RDATA[6]
+ M_AXI_RDATA[7]
+ M_AXI_RDATA[8]
+ M_AXI_RDATA[9]
+ M_AXI_RRESP[0]
+ M_AXI_RRESP[1]
+ M_AXI_RVALID
+ M_AXI_WREADY
+ clk
+ rst_n
+ _093_/X
+ _094_/X
+ _095_/X
+ _096_/X
+ _097_/X
+ _098_/X
+ _099_/X
+ _100_/Y
+ _101_/Y
+ _102_/X
+ _103_/X
+ _104_/X
+ _105_/Y
+ _106_/X
+ _107_/X
+ _108_/X
+ _109_/Y
+ _110_/X
+ _111_/X
+ _112_/X
+ _113_/X
+ _114_/X
+ _115_/X
+ _116_/Y
+ _117_/X
+ _118_/X
+ _119_/X
+ _120_/Y
+ _121_/X
+ _122_/X
+ _123_/Y
+ _124_/X
+ _125_/X
+ _126_/Y
+ _127_/X
+ _128_/X
+ _129_/X
+ _130_/X
+ _131_/X
+ _132_/X
+ _133_/X
+ _134_/X
+ _135_/X
+ _136_/X
+ _137_/X
+ _138_/Y
+ _139_/Y
+ _140_/X
+ _141_/X
+ _142_/X
+ _143_/X
+ _144_/X
+ _145_/X
+ _146_/X
+ _147_/X
+ _148_/X
+ _149_/Y
+ _150_/X
+ _151_/X
+ _152_/X
+ _153_/Y
+ _154_/X
+ _155_/X
+ _156_/Y
+ _157_/X
+ _158_/X
+ _159_/Y
+ _160_/X
+ _161_/X
+ _162_/X
+ _163_/X
+ _164_/X
+ _165_/X
+ _166_/X
+ _167_/X
+ _168_/X
+ _169_/X
+ _170_/X
+ _171_/X
+ _172_/X
+ _173_/X
+ _174_/Y
+ _175_/Y
+ _176_/X
+ _177_/X
+ _178_/X
+ _179_/Y
+ _180_/Y
+ _181_/X
+ _182_/X
+ _183_/Y
+ _184_/X
+ _185_/X
+ _186_/Q
+ _187_/Q
+ _188_/Q
+ _189_/Q
+ _190_/Q
+ _191_/Q
+ _192_/Q
+ _193_/Q
+ _194_/Q
+ _195_/Q
+ _196_/Q
+ _197_/Q
+ _198_/Q
+ _199_/Q
+ _200_/Q
+ _201_/Q
+ _202_/Q
+ _203_/Q
+ _204_/Q
+ _205_/Q
+ _206_/Q
+ _207_/Q
+ _208_/Q
+ _209_/Q
+ _210_/Q
+ _211_/Q
+ _212_/Q
+ _213_/Q
+ _214_/Q
+ _215_/Q
+ _216_/Q
+ _217_/Q
+ _218_/Q
+ _219_/Q
+ _220_/Q
+ _221_/HI
+ _221_/LO
+ _222_/HI
+ _222_/LO
+ _223_/HI
+ _223_/LO
+ _224_/HI
+ _224_/LO
+ _225_/HI
+ _225_/LO
+ _226_/HI
+ _226_/LO
+ _227_/HI
+ _227_/LO
+ _228_/HI
+ _228_/LO
+ _229_/HI
+ _229_/LO
+ _230_/HI
+ _230_/LO
+ _231_/HI
+ _231_/LO
+ _232_/HI
+ _232_/LO
+ _233_/HI
+ _233_/LO
+ _234_/HI
+ _234_/LO
+ _235_/HI
+ _235_/LO
+ _236_/HI
+ _236_/LO
+ _237_/HI
+ _237_/LO
+ _238_/HI
+ _238_/LO
+ _239_/HI
+ _239_/LO
+ _240_/HI
+ _240_/LO
+ _241_/HI
+ _241_/LO
+ _242_/HI
+ _242_/LO
+ _243_/HI
+ _243_/LO
+ _244_/HI
+ _244_/LO
+ _245_/HI
+ _245_/LO
+ _246_/HI
+ _246_/LO
+ _247_/HI
+ _247_/LO
+ _248_/HI
+ _248_/LO
+ _249_/HI
+ _249_/LO
+ _250_/HI
+ _250_/LO
+ _251_/HI
+ _251_/LO
+ _252_/HI
+ _252_/LO
+ _253_/HI
+ _253_/LO
+ _254_/HI
+ _254_/LO
+ _255_/HI
+ _255_/LO
+ _256_/HI
+ _256_/LO
+ _257_/HI
+ _257_/LO
+ _258_/HI
+ _258_/LO
+ _259_/HI
+ _259_/LO
+ _260_/HI
+ _260_/LO
+ _261_/HI
+ _261_/LO
+ _262_/HI
+ _262_/LO
+ _263_/HI
+ _263_/LO
+ _264_/HI
+ _264_/LO
+ _265_/HI
+ _265_/LO
+ _266_/HI
+ _266_/LO
+ _267_/HI
+ _267_/LO
+ _268_/HI
+ _268_/LO
+ _269_/HI
+ _269_/LO
+ _270_/HI
+ _270_/LO
+ _271_/HI
+ _271_/LO
+ _272_/HI
+ _272_/LO
+ _273_/HI
+ _273_/LO
+ _274_/HI
+ _274_/LO
+ _275_/HI
+ _275_/LO
+ _276_/HI
+ _276_/LO
+ _277_/HI
+ _277_/LO
+ _278_/HI
+ _278_/LO
+ _279_/HI
+ _279_/LO
+ _280_/HI
+ _280_/LO
+ _281_/HI
+ _281_/LO
+ _282_/HI
+ _282_/LO
+ _283_/HI
+ _283_/LO
+ _284_/HI
+ _284_/LO
+ _285_/HI
+ _285_/LO
+ _286_/HI
+ _286_/LO
+ _287_/HI
+ _287_/LO
+ _288_/HI
+ _288_/LO
+ _289_/HI
+ _289_/LO
+ _290_/HI
+ _290_/LO
+ _291_/HI
+ _291_/LO
+ _292_/HI
+ _292_/LO
+ _293_/HI
+ _293_/LO
+ _294_/HI
+ _294_/LO
+ _295_/HI
+ _295_/LO
+ _296_/HI
+ _296_/LO
+ _297_/HI
+ _297_/LO
+ _298_/HI
+ _298_/LO
+ _299_/HI
+ _299_/LO
+ _300_/HI
+ _300_/LO
+ _301_/HI
+ _301_/LO
+ _302_/HI
+ _302_/LO
+ _303_/HI
+ _303_/LO
+ _304_/HI
+ _304_/LO
+ _305_/HI
+ _305_/LO
+ _306_/HI
+ _306_/LO
+ _307_/HI
+ _307_/LO
+ _308_/HI
+ _308_/LO
+ _309_/HI
+ _309_/LO
+ _310_/HI
+ _310_/LO
+ _311_/HI
+ _311_/LO
+ _312_/HI
+ _312_/LO
+ _313_/HI
+ _313_/LO
+ _314_/HI
+ _314_/LO
+ _315_/HI
+ _315_/LO
+ _316_/HI
+ _316_/LO
+ _317_/HI
+ _317_/LO
+ _318_/HI
+ _318_/LO
+ _319_/HI
+ _319_/LO
+ _320_/HI
+ _320_/LO
+ _321_/HI
+ _321_/LO
+ _322_/HI
+ _322_/LO
+ _323_/HI
+ _323_/LO
+ _324_/HI
+ _324_/LO
+ _325_/HI
+ _325_/LO
+ _326_/HI
+ _326_/LO
+ _327_/HI
+ _327_/LO
+ _328_/HI
+ _328_/LO
+ _329_/HI
+ _329_/LO
+ _330_/HI
+ _330_/LO
+ _331_/HI
+ _331_/LO
+ _332_/HI
+ _332_/LO
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 1
+max cap violation count 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 9 unclocked register/latch pins.
+  _212_/CLK
+  _213_/CLK
+  _214_/CLK
+  _215_/CLK
+  _216_/CLK
+  _217_/CLK
+  _218_/CLK
+  _219_/CLK
+  _220_/CLK
+Warning: There are 124 unconstrained endpoints.
+  M_AXI_ARADDR[0]
+  M_AXI_ARADDR[10]
+  M_AXI_ARADDR[11]
+  M_AXI_ARADDR[12]
+  M_AXI_ARADDR[13]
+  M_AXI_ARADDR[14]
+  M_AXI_ARADDR[15]
+  M_AXI_ARADDR[16]
+  M_AXI_ARADDR[17]
+  M_AXI_ARADDR[18]
+  M_AXI_ARADDR[19]
+  M_AXI_ARADDR[1]
+  M_AXI_ARADDR[20]
+  M_AXI_ARADDR[21]
+  M_AXI_ARADDR[22]
+  M_AXI_ARADDR[23]
+  M_AXI_ARADDR[24]
+  M_AXI_ARADDR[25]
+  M_AXI_ARADDR[26]
+  M_AXI_ARADDR[27]
+  M_AXI_ARADDR[28]
+  M_AXI_ARADDR[29]
+  M_AXI_ARADDR[2]
+  M_AXI_ARADDR[30]
+  M_AXI_ARADDR[31]
+  M_AXI_ARADDR[3]
+  M_AXI_ARADDR[4]
+  M_AXI_ARADDR[5]
+  M_AXI_ARADDR[6]
+  M_AXI_ARADDR[7]
+  M_AXI_ARADDR[8]
+  M_AXI_ARADDR[9]
+  M_AXI_ARVALID
+  M_AXI_AWADDR[0]
+  M_AXI_AWADDR[10]
+  M_AXI_AWADDR[11]
+  M_AXI_AWADDR[12]
+  M_AXI_AWADDR[13]
+  M_AXI_AWADDR[14]
+  M_AXI_AWADDR[15]
+  M_AXI_AWADDR[16]
+  M_AXI_AWADDR[17]
+  M_AXI_AWADDR[18]
+  M_AXI_AWADDR[19]
+  M_AXI_AWADDR[1]
+  M_AXI_AWADDR[20]
+  M_AXI_AWADDR[21]
+  M_AXI_AWADDR[22]
+  M_AXI_AWADDR[23]
+  M_AXI_AWADDR[24]
+  M_AXI_AWADDR[25]
+  M_AXI_AWADDR[26]
+  M_AXI_AWADDR[27]
+  M_AXI_AWADDR[28]
+  M_AXI_AWADDR[29]
+  M_AXI_AWADDR[2]
+  M_AXI_AWADDR[30]
+  M_AXI_AWADDR[31]
+  M_AXI_AWADDR[3]
+  M_AXI_AWADDR[4]
+  M_AXI_AWADDR[5]
+  M_AXI_AWADDR[6]
+  M_AXI_AWADDR[7]
+  M_AXI_AWADDR[8]
+  M_AXI_AWADDR[9]
+  M_AXI_AWVALID
+  M_AXI_BREADY
+  M_AXI_RREADY
+  M_AXI_WDATA[0]
+  M_AXI_WDATA[10]
+  M_AXI_WDATA[11]
+  M_AXI_WDATA[12]
+  M_AXI_WDATA[13]
+  M_AXI_WDATA[14]
+  M_AXI_WDATA[15]
+  M_AXI_WDATA[16]
+  M_AXI_WDATA[17]
+  M_AXI_WDATA[18]
+  M_AXI_WDATA[19]
+  M_AXI_WDATA[1]
+  M_AXI_WDATA[20]
+  M_AXI_WDATA[21]
+  M_AXI_WDATA[22]
+  M_AXI_WDATA[23]
+  M_AXI_WDATA[24]
+  M_AXI_WDATA[25]
+  M_AXI_WDATA[26]
+  M_AXI_WDATA[27]
+  M_AXI_WDATA[28]
+  M_AXI_WDATA[29]
+  M_AXI_WDATA[2]
+  M_AXI_WDATA[30]
+  M_AXI_WDATA[31]
+  M_AXI_WDATA[3]
+  M_AXI_WDATA[4]
+  M_AXI_WDATA[5]
+  M_AXI_WDATA[6]
+  M_AXI_WDATA[7]
+  M_AXI_WDATA[8]
+  M_AXI_WDATA[9]
+  M_AXI_WSTRB[0]
+  M_AXI_WSTRB[1]
+  M_AXI_WSTRB[2]
+  M_AXI_WSTRB[3]
+  M_AXI_WVALID
+  led[0]
+  led[1]
+  led[2]
+  led[3]
+  led[4]
+  led[5]
+  led[6]
+  led[7]
+  led[8]
+  led[9]
+  _212_/D
+  _213_/D
+  _214_/D
+  _215_/D
+  _216_/D
+  _217_/D
+  _218_/D
+  _219_/D
+  _220_/D

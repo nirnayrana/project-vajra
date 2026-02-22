@@ -1,0 +1,254 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= Fastest Corner ===================================
+
+No paths found.
+
+======================= Slowest Corner ===================================
+
+No paths found.
+
+======================= Typical Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= Fastest Corner ===================================
+
+No paths found.
+
+======================= Slowest Corner ===================================
+
+No paths found.
+
+======================= Typical Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= Fastest Corner ===================================
+
+
+======================= Slowest Corner ===================================
+
+
+======================= Typical Corner ===================================
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 116 unannotated drivers.
+ io_in[0]
+ io_in[10]
+ io_in[11]
+ io_in[12]
+ io_in[13]
+ io_in[14]
+ io_in[15]
+ io_in[16]
+ io_in[17]
+ io_in[18]
+ io_in[19]
+ io_in[1]
+ io_in[20]
+ io_in[21]
+ io_in[22]
+ io_in[23]
+ io_in[24]
+ io_in[25]
+ io_in[26]
+ io_in[27]
+ io_in[28]
+ io_in[29]
+ io_in[2]
+ io_in[30]
+ io_in[31]
+ io_in[32]
+ io_in[33]
+ io_in[34]
+ io_in[35]
+ io_in[36]
+ io_in[37]
+ io_in[3]
+ io_in[4]
+ io_in[5]
+ io_in[6]
+ io_in[7]
+ io_in[8]
+ io_in[9]
+ wb_clk_i
+ wb_rst_i
+ vajra_caravel_soc_1/HI
+ vajra_caravel_soc_10/HI
+ vajra_caravel_soc_11/HI
+ vajra_caravel_soc_12/HI
+ vajra_caravel_soc_13/HI
+ vajra_caravel_soc_14/HI
+ vajra_caravel_soc_15/HI
+ vajra_caravel_soc_16/HI
+ vajra_caravel_soc_17/HI
+ vajra_caravel_soc_18/HI
+ vajra_caravel_soc_19/HI
+ vajra_caravel_soc_2/HI
+ vajra_caravel_soc_20/HI
+ vajra_caravel_soc_21/HI
+ vajra_caravel_soc_22/HI
+ vajra_caravel_soc_23/HI
+ vajra_caravel_soc_24/HI
+ vajra_caravel_soc_25/HI
+ vajra_caravel_soc_26/HI
+ vajra_caravel_soc_27/HI
+ vajra_caravel_soc_28/HI
+ vajra_caravel_soc_29/HI
+ vajra_caravel_soc_3/HI
+ vajra_caravel_soc_30/HI
+ vajra_caravel_soc_31/HI
+ vajra_caravel_soc_32/HI
+ vajra_caravel_soc_33/HI
+ vajra_caravel_soc_34/HI
+ vajra_caravel_soc_35/HI
+ vajra_caravel_soc_36/HI
+ vajra_caravel_soc_37/HI
+ vajra_caravel_soc_38/HI
+ vajra_caravel_soc_39/HI
+ vajra_caravel_soc_4/HI
+ vajra_caravel_soc_40/HI
+ vajra_caravel_soc_41/HI
+ vajra_caravel_soc_42/HI
+ vajra_caravel_soc_43/HI
+ vajra_caravel_soc_44/HI
+ vajra_caravel_soc_45/HI
+ vajra_caravel_soc_46/HI
+ vajra_caravel_soc_47/HI
+ vajra_caravel_soc_48/HI
+ vajra_caravel_soc_49/HI
+ vajra_caravel_soc_5/HI
+ vajra_caravel_soc_50/HI
+ vajra_caravel_soc_51/HI
+ vajra_caravel_soc_52/HI
+ vajra_caravel_soc_53/HI
+ vajra_caravel_soc_54/HI
+ vajra_caravel_soc_55/HI
+ vajra_caravel_soc_56/HI
+ vajra_caravel_soc_57/HI
+ vajra_caravel_soc_58/HI
+ vajra_caravel_soc_59/HI
+ vajra_caravel_soc_6/HI
+ vajra_caravel_soc_60/HI
+ vajra_caravel_soc_61/HI
+ vajra_caravel_soc_62/HI
+ vajra_caravel_soc_63/HI
+ vajra_caravel_soc_64/HI
+ vajra_caravel_soc_65/HI
+ vajra_caravel_soc_66/HI
+ vajra_caravel_soc_67/HI
+ vajra_caravel_soc_68/HI
+ vajra_caravel_soc_69/HI
+ vajra_caravel_soc_7/HI
+ vajra_caravel_soc_70/HI
+ vajra_caravel_soc_71/HI
+ vajra_caravel_soc_72/HI
+ vajra_caravel_soc_73/HI
+ vajra_caravel_soc_74/HI
+ vajra_caravel_soc_75/HI
+ vajra_caravel_soc_76/HI
+ vajra_caravel_soc_8/HI
+ vajra_caravel_soc_9/HI
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 0
+max cap violation count 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 76 unconstrained endpoints.
+  io_oeb[0]
+  io_oeb[10]
+  io_oeb[11]
+  io_oeb[12]
+  io_oeb[13]
+  io_oeb[14]
+  io_oeb[15]
+  io_oeb[16]
+  io_oeb[17]
+  io_oeb[18]
+  io_oeb[19]
+  io_oeb[1]
+  io_oeb[20]
+  io_oeb[21]
+  io_oeb[22]
+  io_oeb[23]
+  io_oeb[24]
+  io_oeb[25]
+  io_oeb[26]
+  io_oeb[27]
+  io_oeb[28]
+  io_oeb[29]
+  io_oeb[2]
+  io_oeb[30]
+  io_oeb[31]
+  io_oeb[32]
+  io_oeb[33]
+  io_oeb[34]
+  io_oeb[35]
+  io_oeb[36]
+  io_oeb[37]
+  io_oeb[3]
+  io_oeb[4]
+  io_oeb[5]
+  io_oeb[6]
+  io_oeb[7]
+  io_oeb[8]
+  io_oeb[9]
+  io_out[0]
+  io_out[10]
+  io_out[11]
+  io_out[12]
+  io_out[13]
+  io_out[14]
+  io_out[15]
+  io_out[16]
+  io_out[17]
+  io_out[18]
+  io_out[19]
+  io_out[1]
+  io_out[20]
+  io_out[21]
+  io_out[22]
+  io_out[23]
+  io_out[24]
+  io_out[25]
+  io_out[26]
+  io_out[27]
+  io_out[28]
+  io_out[29]
+  io_out[2]
+  io_out[30]
+  io_out[31]
+  io_out[32]
+  io_out[33]
+  io_out[34]
+  io_out[35]
+  io_out[36]
+  io_out[37]
+  io_out[3]
+  io_out[4]
+  io_out[5]
+  io_out[6]
+  io_out[7]
+  io_out[8]
+  io_out[9]

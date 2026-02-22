@@ -1,0 +1,22 @@
+
+68. Printing statistics.
+
+=== vajra_caravel_soc ===
+
+   Number of wires:                223
+   Number of wire bits:            591
+   Number of public wires:          11
+   Number of public wire bits:     271
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                321
+     $_ANDNOT_                      26
+     $_MUX_                         30
+     $_NAND_                        27
+     $_NOT_                         59
+     $_OR_                          41
+     $_XNOR_                        36
+     $_XOR_                         46
+     sky130_fd_sc_hd__dfrtp_2       56
+

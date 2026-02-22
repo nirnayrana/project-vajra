@@ -1,0 +1,25 @@
+
+61. Printing statistics.
+
+=== riscv_pipeline_top ===
+
+   Number of wires:                 92
+   Number of wire bits:            310
+   Number of public wires:          23
+   Number of public wire bits:     191
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                128
+     $_ANDNOT_                      22
+     $_AND_                          5
+     $_DFFE_PN0P_                    3
+     $_DFF_PN0_                     31
+     $_DFF_PN1_                      1
+     $_MUX_                          1
+     $_NAND_                        12
+     $_NOT_                          1
+     $_OR_                          27
+     $_XNOR_                        12
+     $_XOR_                         13
+

@@ -1,0 +1,438 @@
+/openlane/designs/riscv/src/riscv_axi_ram.v:0: Warning: System task `$write' outside initial block is unsupported.
+ABC: Warning: Detected 2 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+ABC: Warning: Detected 2 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+ABC: Warning: Detected 2 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+ABC: Warning: Detected 2 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+ABC: Warning: Detected 2 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+ABC: Warning: Detected 2 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+Warning: Wire riscv_alu4b.\Zero is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [31] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [30] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [29] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [28] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [27] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [26] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [25] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [24] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [23] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [22] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [21] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [20] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [19] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [18] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [17] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [16] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [15] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [14] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [13] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [12] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [11] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [10] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [9] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [8] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [7] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [6] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [5] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [4] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [3] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [2] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [1] is used but has no driver.
+Warning: Wire riscv_alu4b.\ALUResult [0] is used but has no driver.
+Warning: Wire riscv_imem.\rd [31] is used but has no driver.
+Warning: Wire riscv_imem.\rd [30] is used but has no driver.
+Warning: Wire riscv_imem.\rd [29] is used but has no driver.
+Warning: Wire riscv_imem.\rd [28] is used but has no driver.
+Warning: Wire riscv_imem.\rd [27] is used but has no driver.
+Warning: Wire riscv_imem.\rd [26] is used but has no driver.
+Warning: Wire riscv_imem.\rd [25] is used but has no driver.
+Warning: Wire riscv_imem.\rd [24] is used but has no driver.
+Warning: Wire riscv_imem.\rd [23] is used but has no driver.
+Warning: Wire riscv_imem.\rd [22] is used but has no driver.
+Warning: Wire riscv_imem.\rd [21] is used but has no driver.
+Warning: Wire riscv_imem.\rd [20] is used but has no driver.
+Warning: Wire riscv_imem.\rd [19] is used but has no driver.
+Warning: Wire riscv_imem.\rd [18] is used but has no driver.
+Warning: Wire riscv_imem.\rd [17] is used but has no driver.
+Warning: Wire riscv_imem.\rd [16] is used but has no driver.
+Warning: Wire riscv_imem.\rd [15] is used but has no driver.
+Warning: Wire riscv_imem.\rd [14] is used but has no driver.
+Warning: Wire riscv_imem.\rd [13] is used but has no driver.
+Warning: Wire riscv_imem.\rd [12] is used but has no driver.
+Warning: Wire riscv_imem.\rd [11] is used but has no driver.
+Warning: Wire riscv_imem.\rd [10] is used but has no driver.
+Warning: Wire riscv_imem.\rd [9] is used but has no driver.
+Warning: Wire riscv_imem.\rd [8] is used but has no driver.
+Warning: Wire riscv_imem.\rd [7] is used but has no driver.
+Warning: Wire riscv_imem.\rd [6] is used but has no driver.
+Warning: Wire riscv_imem.\rd [5] is used but has no driver.
+Warning: Wire riscv_imem.\rd [4] is used but has no driver.
+Warning: Wire riscv_imem.\rd [3] is used but has no driver.
+Warning: Wire riscv_imem.\rd [2] is used but has no driver.
+Warning: Wire riscv_imem.\rd [1] is used but has no driver.
+Warning: Wire riscv_imem.\rd [0] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\led [9] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\led [8] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\led [7] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\led [6] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\led [5] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\led [4] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\led [3] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\led [2] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\led [1] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\led [0] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WVALID is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WSTRB [3] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WSTRB [2] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WSTRB [1] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WSTRB [0] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [31] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [30] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [29] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [28] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [27] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [26] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [25] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [14] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [13] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [12] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [11] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [10] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [9] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [8] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [7] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [6] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [5] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [4] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [3] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [2] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [1] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [0] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_RREADY is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_BREADY is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWVALID is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [31] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [30] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [29] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [28] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [27] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [26] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [25] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [24] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [23] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [22] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [21] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [20] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [19] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [18] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [17] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [16] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [15] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [14] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [13] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [12] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [11] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [10] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [9] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [8] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [7] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [6] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [5] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [4] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [3] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [2] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [1] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_AWADDR [0] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARVALID is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [31] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [30] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [29] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [28] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [27] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [26] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [25] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [24] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [23] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [22] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [21] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [20] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [19] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [18] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [17] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [16] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [15] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [14] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [13] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [12] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [11] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [10] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [9] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [8] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [7] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [6] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [5] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [4] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [3] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [2] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [1] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_ARADDR [0] is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121911 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121909 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121907 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121905 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121903 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121901 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121899 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121897 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121895 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121893 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121891 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121889 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121887 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121885 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121883 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121881 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121879 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121877 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121875 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121873 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121871 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121869 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121867 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121865 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121863 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121861 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121859 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121857 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121855 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121853 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121851 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121849 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121847 is used but has no driver.
+Warning: Wire riscv_pipeline_top.\rst is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121845 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121843 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121841 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121839 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121837 is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [24] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [23] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [22] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [21] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [20] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [19] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [18] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [17] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [16] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\M_AXI_WDATA [15] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[31] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[30] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[29] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[28] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[27] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[26] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[25] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[24] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[23] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[22] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[21] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[20] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[19] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[18] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[17] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[16] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[15] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[14] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[13] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[12] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[11] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[10] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[9] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[8] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[7] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[6] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[5] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[4] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[3] is used but has no driver.
+Warning: Wire riscv_pipeline_top.\PC_F[2] is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121835 is used but has no driver.
+Warning: Wire riscv_pipeline_top.$auto$hilomap.cc:47:hilomap_worker$121833 is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [31] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [30] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [29] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [28] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [27] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [26] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [25] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [24] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [23] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [22] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [21] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [20] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [19] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [18] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [17] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [16] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [15] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [14] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [13] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [12] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [11] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [10] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [9] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [8] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [7] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [6] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [5] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [4] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [3] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [2] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [1] is used but has no driver.
+Warning: Wire riscv_regfile.\rd2 [0] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [31] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [30] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [29] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [28] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [27] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [26] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [25] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [24] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [23] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [22] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [21] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [20] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [19] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [18] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [17] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [16] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [15] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [14] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [13] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [12] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [11] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [10] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [9] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [8] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [7] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [6] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [5] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [4] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [3] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [2] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [1] is used but has no driver.
+Warning: Wire riscv_regfile.\rd1 [0] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [37] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [36] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [35] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [34] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [33] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [32] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [31] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [30] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [29] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [28] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [27] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [26] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [25] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [24] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [23] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [22] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [21] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [20] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [19] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [18] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [17] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [16] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [15] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [14] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [13] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [12] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [11] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [10] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [9] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [8] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [7] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [6] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [5] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [4] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [3] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [2] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [1] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\io_oeb [0] is used but has no driver.
+Warning: Wire vajra_caravel_soc.$abc$45639$not$/openlane/designs/riscv/src/vajra_caravel_soc.v:32$67_Y is used but has no driver.
+Warning: Wire vajra_caravel_soc.$auto$hilomap.cc:39:hilomap_worker$122011 is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rvalid is used but has no driver.
+Warning: Wire vajra_caravel_soc.$auto$hilomap.cc:47:hilomap_worker$122009 is used but has no driver.
+Warning: Wire vajra_caravel_soc.$auto$hilomap.cc:47:hilomap_worker$122007 is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[31] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[30] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[29] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[28] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[27] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[26] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[25] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[24] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[23] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[22] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[21] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[20] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[19] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[18] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[17] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[16] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[15] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[14] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[13] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[12] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[11] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[10] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[9] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[8] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[7] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[6] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[5] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[4] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[3] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[2] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[1] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\axi_rdata[0] is used but has no driver.
+Warning: Wire vajra_caravel_soc.$auto$hilomap.cc:47:hilomap_worker$122005 is used but has no driver.
+Warning: Wire vajra_caravel_soc.$auto$hilomap.cc:47:hilomap_worker$122003 is used but has no driver.
+Warning: Wire vajra_caravel_soc.$auto$hilomap.cc:39:hilomap_worker$122001 is used but has no driver.
+Warning: Wire vajra_caravel_soc.$auto$hilomap.cc:39:hilomap_worker$121999 is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [31] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [30] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [29] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [28] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [27] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [26] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [25] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [24] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [23] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [22] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [21] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [20] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [19] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [18] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [17] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [16] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [15] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [14] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [13] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [12] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [11] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [10] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [9] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [8] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [7] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [6] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [5] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [4] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [3] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [2] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [1] is used but has no driver.
+Warning: Wire wallace_multiplier.\prod [0] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\u_cpu.ALU.ALUControl [2] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\u_cpu.ALU.ALUControl [3] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\u_cpu.ALU.ALUControl [0] is used but has no driver.
+Warning: Wire vajra_caravel_soc.\u_cpu.ALU.ALUControl [1] is used but has no driver.
+Warnings: 431 unique messages, 431 total

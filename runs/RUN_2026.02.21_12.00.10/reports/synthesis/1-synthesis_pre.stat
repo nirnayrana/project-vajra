@@ -1,0 +1,159 @@
+
+61. Printing statistics.
+
+=== riscv_alu4b ===
+
+   Number of wires:               1620
+   Number of wire bits:           1747
+   Number of public wires:           6
+   Number of public wire bits:     133
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1648
+     $_ANDNOT_                     630
+     $_AND_                         64
+     $_MUX_                        341
+     $_NAND_                        63
+     $_NOR_                         21
+     $_NOT_                         46
+     $_ORNOT_                       90
+     $_OR_                         266
+     $_XNOR_                        50
+     $_XOR_                         76
+     wallace_multiplier              1
+
+=== riscv_imem ===
+
+   Number of wires:                862
+   Number of wire bits:            924
+   Number of public wires:           2
+   Number of public wire bits:      64
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                890
+     $_ANDNOT_                      91
+     $_AND_                          3
+     $_MUX_                        693
+     $_NAND_                        20
+     $_NOR_                          5
+     $_NOT_                          7
+     $_ORNOT_                        8
+     $_OR_                          62
+     $_XOR_                          1
+
+=== riscv_pipeline_top ===
+
+   Number of wires:                221
+   Number of wire bits:            740
+   Number of public wires:          31
+   Number of public wire bits:     442
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                399
+     $_ANDNOT_                      26
+     $_DFFE_PN0N_                  126
+     $_DFF_PN0_                     26
+     $_NAND_                        27
+     $_NOT_                          4
+     $_OR_                          41
+     $_XNOR_                        58
+     $_XOR_                         88
+     riscv_alu4b                     1
+     riscv_imem                      1
+     riscv_regfile                   1
+
+=== riscv_regfile ===
+
+   Number of wires:               2120
+   Number of wire bits:           3217
+   Number of public wires:          41
+   Number of public wire bits:    1138
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3167
+     $_ANDNOT_                      99
+     $_AND_                          1
+     $_DFFE_PP_                   1024
+     $_MUX_                       1984
+     $_NAND_                         2
+     $_NOR_                          2
+     $_NOT_                          3
+     $_ORNOT_                        4
+     $_OR_                          48
+
+=== vajra_caravel_soc ===
+
+   Number of wires:               8964
+   Number of wire bits:          17178
+   Number of public wires:         273
+   Number of public wire bits:    8456
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              16948
+     $_ANDNOT_                     256
+     $_DFFE_PP_                   8192
+     $_MUX_                       8160
+     $_NAND_                         4
+     $_NOT_                          1
+     $_ORNOT_                        8
+     $_OR_                         293
+     $_SDFFE_PP0P_                  33
+     riscv_pipeline_top              1
+
+=== wallace_multiplier ===
+
+   Number of wires:               3059
+   Number of wire bits:           3152
+   Number of public wires:           3
+   Number of public wire bits:      96
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3088
+     $_ANDNOT_                     886
+     $_AND_                        358
+     $_NAND_                       267
+     $_NOR_                         83
+     $_NOT_                         47
+     $_ORNOT_                       43
+     $_OR_                         356
+     $_XNOR_                       200
+     $_XOR_                        848
+
+=== design hierarchy ===
+
+   vajra_caravel_soc                 1
+     riscv_pipeline_top              1
+       riscv_alu4b                   1
+         wallace_multiplier          1
+       riscv_imem                    1
+       riscv_regfile                 1
+
+   Number of wires:              16846
+   Number of wire bits:          26958
+   Number of public wires:         356
+   Number of public wire bits:   10329
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              26135
+     $_ANDNOT_                    1988
+     $_AND_                        426
+     $_DFFE_PN0N_                  126
+     $_DFFE_PP_                   9216
+     $_DFF_PN0_                     26
+     $_MUX_                      11178
+     $_NAND_                       383
+     $_NOR_                        111
+     $_NOT_                        108
+     $_ORNOT_                      153
+     $_OR_                        1066
+     $_SDFFE_PP0P_                  33
+     $_XNOR_                       308
+     $_XOR_                       1013
+

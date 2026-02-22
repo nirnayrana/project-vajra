@@ -1,0 +1,4 @@
+/openlane/designs/riscv/src/riscv_axi_ram.v:0: Warning: System task `$write' outside initial block is unsupported.
+/openlane/designs/riscv/src/riscv_pipeline_top.v:65: Warning: Identifier `\RegWrite_W' is implicitly declared.
+/openlane/designs/riscv/src/riscv_pipeline_top.v:66: Warning: Identifier `\Rd_W' is implicitly declared.
+Warning: Resizing cell port riscv_pipeline_top.REG_FILE.a3 from 1 bits to 5 bits.

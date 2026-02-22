@@ -1,0 +1,2 @@
+[ERROR PPL-0024] Number of IO pins (158) exceeds maximum number of available positions (110).
+Error: ioplacer.tcl, 51 PPL-0024
